@@ -10,6 +10,7 @@ class MyClass():
             b*=q
             i+=1
             a[i-1]=b
+            print(a[i-1])
         return a
     def Return_k(self,a,k):
         ku=0
@@ -21,4 +22,4 @@ class MyClass():
             i+=1
             a[i-1]=self.b
         return(ku)
-    
+MyClass.Progression(3,9,15)
