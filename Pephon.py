@@ -23,3 +23,4 @@ class MyClass():
             a[i-1]=self.b
         return(ku)
 MyClass().Progression(3,9,15)
+print("Hello")
