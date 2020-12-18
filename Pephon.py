@@ -22,4 +22,4 @@ class MyClass():
             i+=1
             a[i-1]=self.b
         return(ku)
-MyClass.Progression(3,9,15)
+MyClass().Progression(3,9,15)
